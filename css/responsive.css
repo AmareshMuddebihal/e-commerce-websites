@@ -1,0 +1,180 @@
+@media screen and (max-width: 1000px) {
+  body {
+    width: auto;
+  }
+  nav {
+    flex-direction: column;
+    height: 350px;
+    transition: all 0.8s ease-in-out;
+  }
+
+  .slider {
+    height: 23vh;
+  }
+
+  .logo {
+    justify-content: center;
+    margin: 10px 0;
+  }
+  .logo img {
+    top: 0;
+    margin: 20px 0;
+    width: 20vh;
+    position: absolute;
+  }
+
+  p{
+    font-size: 30px;
+  }
+  .one{
+    margin: 12px 0;
+  }
+  .two{
+    display: none;
+  }
+  nav ul {
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    top: 5px;
+  }
+  nav ul li {
+    font-size: 40px;
+  }
+
+  .search {
+    justify-content: center;
+  }
+  .fa-search {
+    position: fixed;
+    top: 250px;
+    right: 70px;
+    font-size: 40px;
+    color: black;
+    z-index: 2;
+    border-radius: 29px;
+    padding: 7px;
+    background: #fff;
+}
+#search {
+  /* top: 45px; */
+  position: relative;
+  right: -90px;
+  height: 54px;
+  width: 65vw;
+  border-radius: 29px;
+  font-size: 30px;
+  padding: 0 60px;
+}
+  .search input {
+    margin: 12px 16px;
+  }
+  .card-item img {
+    width: 250px;
+    height: 350px;
+  }
+  .burger {
+    display: block;
+  }
+  .h-nav {
+    height: 70px;
+  }
+  .v-class {
+    display: none;
+  }
+  .slider {
+    display: flex;
+    height: 57vh;
+    flex-direction: column-reverse;
+  }
+  .slider img {
+    position: relative;
+    width: 350px;
+    top: 25px;
+  }
+  .slider .left {
+    text-align: center;
+  }
+  .lines {
+    font-size: 30px;
+  }
+  .img img {
+    width: 200px;
+  }
+  .download {
+    display: flex;
+    flex-direction: row;
+  }
+  .download img {
+    padding: 0 5px;
+    width: 200px;
+  }
+  .copyright {
+    font-size: 30px;
+  }
+  .footer {
+    flex-direction: column;
+  }
+  .icon {
+    padding: 10px;
+  }
+  .f-1,
+  .f-2,
+  .f-3,
+  .f-4 {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 1000px) and (max-width: 1300px) {
+  .fa-search {
+    right: -37.5vw;
+  }
+  .burger {
+    display: none;
+  }
+}
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+  .fa-search {
+    right: -38.5vw;
+  }
+  .burger {
+    display: none;
+  }
+}
+@media screen and (max-width: 320px) {
+  .fa-search {
+    right: -460px;
+  }
+}
+@media screen and (min-width: 720px) and (max-width: 770px) {
+  .logo img {
+    top: 8px;
+    margin: 12px 0;
+    width: 20vw;
+    position: absolute;
+}
+  nav ul li {
+    font-size: 6vw;
+  }
+  .fa-search {
+    right: -800px;
+  }
+}
+@media screen and (min-width: 520px) and (max-width: 540px) {
+  .fa-search {
+    right: 90px;
+}
+}
+@media screen and (min-width: 240px) and (max-width: 280px) {
+  .fa-search {
+    right: -430px;
+  }
+}
+  @media screen and (min-width: 600px) and (max-width: 725px){
+    nav ul li{
+      font-size: 7vw;
+      padding: 0px;
+    }
+  }

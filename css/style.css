@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+:root {
+  --main-bg-color: #2874f0;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  width: auto;
+  overflow-x: hidden;
+}
+header {
+  background: var(--main-bg-color);
+  font-family: "Lato", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-right: -120px;
+}
+
+.logo img {
+  width: 80px;
+  margin-left: -90px;
+}
+
+nav ul {
+  height: 58px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 0 23px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  font-weight: bolder;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  margin-left: -190px;
+}
+#search {
+  outline: none;
+}
+
+.search input {
+  width: 30vw;
+  height: 27px;
+  border-radius: 5px;
+  margin: 0 16px 0 59px;
+  padding-left: 12px;
+  padding-right: 30px;
+}
+
+.search button {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+}
+.fa-search {
+  position: relative;
+  right: -35.5vw;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 19px;
+  color: black;
+}
+.slider {
+  background: radial-gradient(rgb(255, 255, 255), #f5a1a1);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  overflow: hidden;
+}
+.one {
+  font-size: 25px;
+}
+.two {
+  margin: 25px 0;
+}
+.left {
+  font-family: "Lora", serif;
+  display: flex;
+  margin: 0 40px;
+  flex-direction: column;
+}
+.heading {
+  margin: 0 30px;
+}
+.card {
+  margin: 37px auto;
+  font-family: "Ubuntu", sans-serif;
+}
+.cards {
+  display: flex;
+  overflow: hidden;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-item {
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px 15px;
+}
+.card-item :hover {
+  color: blue;
+  
+  transition: all 1s ease-in-out;
+}
+.card-item a {
+  text-decoration: none;
+  color: black;
+}
+
+.card h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 30px;
+}
+
+.container {
+  min-height: calc(100vh - 58px - 12vh);
+}
+
+.last-box {
+  background-color: rgb(27, 52, 216);
+}
+.footer {
+  display: flex;
+  color: white;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+}
+.footer ul li {
+  padding: 5px 5px;
+}
+.footer ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.v {
+  display: flex;
+  align-self: center;
+}
+.icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  text-align: cente;
+}
+.img {
+  display: flex;
+  flex-direction: row;
+}
+.img img {
+  width: 80px;
+}
+.download img {
+  margin: 5px 0;
+}
+
+.footer h1 {
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.f-1,
+.f-2,
+.f-3,
+.f-4 {
+  padding: 30px 30px;
+}
+.w-5 {
+  width: 20px;
+}
+.s-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5px 0;
+}
+.twitter {
+  color: rgb(17, 17, 57);
+}
+.linkedin {
+  color: white;
+}
+svg {
+  padding: 0 5px;
+}
+.insta {
+  color: rgb(247, 90, 34);
+}
+
+
+.burger {
+  display: none;
+  position: absolute;
+  cursor: pointer;
+  top: 15px;
+}
+.l-vline {
+  width: 50px;
+  background-color: white;
+  height: 8px;
+  margin: 4px 8px;
+  border-radius: 10px;
+}
